@@ -22,7 +22,7 @@ public class LoadText : MonoBehaviour
     {
         
     }
-    void on GUI()
+    void OnGUI()
     {
        GUILayout.Label(txtContents);
     }

@@ -8,6 +8,7 @@
           <e p="test.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="AltTextMaker.cs" t="Include" />
           <e p="GettingPoints.cs" t="Include" />
           <e p="KeepScore.cs" t="Include" />
           <e p="LoadText.cs" t="Include" />
