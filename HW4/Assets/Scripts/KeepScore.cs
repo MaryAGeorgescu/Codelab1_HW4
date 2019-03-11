@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
 
+//Usage: To put placed on a text that will change as the score changes
+//Intent: To keep score of something 
 public class KeepScore : MonoBehaviour
 {
 
