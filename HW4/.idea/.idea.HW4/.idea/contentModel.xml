@@ -13,6 +13,7 @@
           <e p="KeepScore.cs" t="Include" />
           <e p="LoadText.cs" t="Include" />
           <e p="ManageTextFile.cs" t="Include" />
+          <e p="Transition.cs" t="Include" />
         </e>
       </e>
       <e p="HW4.sln" t="IncludeFlat" />
