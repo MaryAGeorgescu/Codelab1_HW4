@@ -12,12 +12,12 @@ public class ManageTextFile : MonoBehaviour
 
         //Write some text to the test.txt file
         StreamWriter writer = new StreamWriter(path, true);
-        writer.WriteLine("Hello this is a test line.");
+        writer.WriteLine("test");
         writer.Close();
 
         //Re-import the file to update the reference in the editor
         AssetDatabase.ImportAsset(path); 
-        TextAsset asset = Resources.Load("Hello this is a test line.");
+        TextAsset asset = Resources.Load("test");
 
         //Print the text from the file
         Debug.Log(asset.text);
