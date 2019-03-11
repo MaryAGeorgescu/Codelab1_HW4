@@ -7,9 +7,11 @@ public class GameManager : MonoBehaviour
 
 {
     public static GameManager manager;
-    public float health;
+    public float endurance;
 
-    public float experiance;
+    public float humor;
+    
+    public float exhaustion;
     
     // Start is called before the first frame update
     void Awake()
